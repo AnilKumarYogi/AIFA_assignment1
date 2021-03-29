@@ -13,14 +13,14 @@ All code was developed and tested on Ubuntu 20.04.6 with C++ language (Supports 
 ### Input Format
 
 ```
-input.txt file contains the adjacency matrix format of the input graph
+**input.txt** file contains the adjacency matrix format of the input graph
 ```
 
 We are giving input for the graph in the form of Adjacency Matrix in a text file. If you want to change the input graph, you can change it in the text file.
 The text file is read line by line where each line represents a row for the adjacency matrix and values are separated by space delimiter. It has to be a square matrix. If the number of rows and columns are not equal then the program terminates with an error message.
 
 ```
-To change number/ paramters of Electric Vehicles, refer the instructions below.
+To change number/ parameters of Electric Vehicles, refer the instructions below.
 The format is: EV(int S = 0, int D = 7, int id = vehicle_id, float B = 10, float c = 1, float d = 0.5, float M = 50, float s = 0.7)
 ```
 
@@ -49,11 +49,8 @@ The last line shows the max{T_r}, i.e., the max duration of time spent by the EV
 
 ```
 git clone https://github.com/AnilKumarYogi/AIFA_assignment1.git
-
 cd AIFA_assignment1/aifa_assign1
-
 g++ aifa_assign1.cpp
-
 ./a.out
 ```
 
