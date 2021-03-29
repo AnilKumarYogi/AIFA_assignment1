@@ -221,14 +221,13 @@ clock_t STAstar(EV ev, vector<vector<int>> dist_graph, int N)
     clock_t timeTaken = ev.timeElapsed(clock());
 
     // print the path
-    cout << "END"
-         << "<-" << ev.retDest() << "<-";
+    cout << ev.retDest() << "<-";
     for (int i = dest; i != src;)
     {
-        cout << parent[i] << "<-";
+        cout << "<-" << parent[i];
         i = parent[i];
     }
-    cout << "EV " << ev.retId() << endl;
+    cout << " :EV " << ev.retId() << endl;
     cout << "Time elapsed = " << timeTaken << " clicks." << endl;
     return timeTaken;
 }
