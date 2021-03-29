@@ -13,7 +13,7 @@ All code was developed and tested on Ubuntu 20.04.6 with C++ language (Supports 
 ### Input Format
 
 ```
-**input.txt** file contains the adjacency matrix format of the input graph
+input.txt file contains the adjacency matrix format of the input graph
 ```
 
 We are giving input for the graph in the form of Adjacency Matrix in a text file. If you want to change the input graph, you can change it in the text file.
@@ -24,7 +24,7 @@ To change number/ parameters of Electric Vehicles, refer the instructions below.
 The format is: EV(int S = 0, int D = 7, int id = vehicle_id, float B = 10, float c = 1, float d = 0.5, float M = 50, float s = 0.7)
 ```
 
-If you want to change the number of EVs you can changeit in the source code.
+If you want to change the number of EVs you can change it in the source code.
 We have already given some default values to the parameters above so even if certain parameters are not given the object will automatically initiate taccording to the default values.
 
 ### Output Format
@@ -39,11 +39,11 @@ Execution time for the code: 0.000785 seconds
 Max time taken to travel from source to destination: 0.000178 seconds
 ```
 
-The first line represents the path taken by each EV along with its id on the right hand side.
+The first line represents the path taken by each EV along with its ID on the right hand side.
 The second line represents the clock time/ clicks elapsed during its journey. Similar output is shown for each of the EVs.
 
 The second last line shows the execution time for the code.
-The last line shows the max{T_r}, i.e., the max duration of time spent by the EVs.
+The last line shows the max{T_r}, i.e., the max duration of time that was taken by any EV to complete its jourbey.
 
 ## Running the code
 
@@ -56,7 +56,7 @@ g++ aifa_assign1.cpp
 
 ## Authors
 
-- **Sakshi Dwivedi**
-- **Anil Yogi**
-- **Cherry Taly**
-- **Yogesh Chawla**
+- **Sakshi Dwivedi 19MA20047**
+- **Anil Yogi 19MA20004**
+- **Cherry Taly 19IE10013**
+- **Yogesh Chawla 19AG3FP02**
