@@ -25,7 +25,7 @@ The format is: EV(int S = 0, int D = 7, int id = vehicle_id, float B = 10, float
 ```
 
 If you want to change the number of EVs you can change it in the source code.
-We have already given some default values to the parameters above so even if certain parameters are not given the object will automatically initiate taccording to the default values.
+We have already given some default values to the parameters above so even if certain parameters are not given the object will be automatically initiated according to the default values.
 
 ### Output Format
 
